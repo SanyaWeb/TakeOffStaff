@@ -10,6 +10,11 @@ yarn install
 yarn serve
 ```
 
+### Run json-server
+```
+node server.js
+```
+
 ### Compiles and minifies for production
 ```
 yarn build

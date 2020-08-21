@@ -1,0 +1,79 @@
+.contact-list__info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  max-width: calc(100% - 70px);
+}
+.contact-list__item-name {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 3px;
+  color: #222;
+}
+.contact-list__item-phone {
+  font-size: 0.8em;
+  color: #555;
+}
+.edit-contact {
+  width: 400px;
+  max-width: 100%;
+  padding: 7px 0;
+  box-sizing: border-box;
+}
+.edit-contact__row {
+  margin-bottom: 10px;
+}
+.edit-contact__row:last-child {
+  margin-bottom: 0;
+}
+.edit-contact__row label {
+  display: flex;
+  flex-direction: column;
+}
+.edit-contact__lbl-name {
+  display: inline-block;
+  font-size: 16px;
+  font-style: italic;
+  margin: 3px 0;
+  font-weight: bold;
+  color: #fff;
+}
+.edit-contact__lbl-error {
+  display: inline-block;
+  font-size: 14px;
+  font-style: italic;
+  margin: 1px 0;
+  font-weight: bold;
+  color: #ef1313;
+}
+.edit-contact__text-input {
+  font-size: 16px;
+  padding: 7px;
+  color: #333;
+  border: 2px solid #cb8634;
+  outline: 0;
+}
+.edit-contact__text-input:focus {
+  border: 2px solid #c45b00;
+}
+.edit-contact__text-input_error {
+  border: 2px solid #ef1313;
+}
+.edit-contact__send-btn {
+  width: 100%;
+  background: #d27201;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  border: 0;
+  outline: 0;
+  margin-top: 10px;
+  font-weight: bold;
+  font-style: italic;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.edit-contact__send-btn:hover {
+  background: #c45b00;
+}
+/*# sourceMappingURL=style.css.map */
